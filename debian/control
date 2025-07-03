@@ -1,0 +1,13 @@
+Source: sheepnet-dkms
+Section: admin
+Priority: optional
+Maintainer: Jason Powell <apt@hatestheinternet.com>
+Build-Depends: debhelper (>= 10), dh-dkms
+Standards-Version: 3.9.6
+
+Package: sheepnet-dkms
+Provides: sheepnet-dkms
+Architecture: all
+Depends: ${misc:Depends}, dkms
+Description: Sheep_net kernel module
+ Used by several Macintosh emulators for bridged network access.
