@@ -21,9 +21,11 @@ sudo chmod 660 /dev/sheep_net
 ```
 
 After this, once you load Basilisk (so long as your user is in that `adm` group), just choose the network interface you want to bridge:
+
 ![Basilisk "Serial/Network settings" bound to local ethernet interface "eno1"](https://github.com/hatestheinternet/sheepnet-dkms/blob/trunk/images/basilisk-net.png?raw=true)
 
 So long as everything else is set up properly, here's a System 7.5.3 Macintosh VM mounting the SYS share off a Netware server over AppleTalk/DDP:
+
 ![A System 7.5.3 virtual Macintosh mounting the SYS volume off a Novell Netware server over AppleTalk/DDP](https://github.com/hatestheinternet/sheepnet-dkms/blob/trunk/images/netware.png?raw=true)
 
 ## Secure Boot
