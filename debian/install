@@ -1,1 +1,2 @@
 usr/src/sheepnet-1.0.0
+usr/lib/udev/rules.d/60-sheep_net.rules
