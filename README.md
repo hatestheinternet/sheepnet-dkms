@@ -2,13 +2,6 @@
 
 This is basically the [macemu BasiliskII Linux NetDriver](https://github.com/cebix/macemu/tree/master/BasiliskII/src/Unix/Linux/NetDriver) needed for BasiliskII (and probably several other Macintosh emulators) to do bridged networking with a physical adapter.
 
-You can maybe debuild this repo or you can just be lazy:
-```
-sudo curl https://apt.hatestheinternet.com/apt.hatestheinternet.com.gpg -o /etc/apt/trusted.gpg.d/apt.hatestheinternet.com.gpg
-echo 'deb [arch=amd64] http://apt.hatestheinternet.com retro main' | sudo tee /etc/apt/sources.list.d/hti-retro.list
-sudo apt update && sudo apt install sheepnet-dkms
-```
-
 This module does not auto-install, so before running Basilisk (or whatever), you need to:
 ```
 sudo modprobe sheep_net
